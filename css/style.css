@@ -1,0 +1,38 @@
+:root {
+  --clr-primary-VeryDarkMagenta: hsl(300, 43%, 22%);
+  --clr-primary-SoftPink: hsl(333, 80%, 67%);
+
+  --clr-neutral-DarkGrayishMagenta: hsl(303, 10%, 53%);
+  --clr-neutral-LightGrayishMagenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+
+  --ff-base: 'League Spartan', sans-serif;
+
+  --fs-body-copy: 0.9375rem;
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+}
+/* ---------- Reset ---------- */
+*, *::before, *::after {box-sizing: border-box;}
+* {margin: 0;padding: 0;}
+body {line-height: 1.5;-webkit-font-smoothing: antialiased;}
+img, picture, video, canvas, svg {display: block;max-width: 100%;}
+input, button, textarea, select {font: inherit;}
+p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
